@@ -1,0 +1,9 @@
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    font-size: 17px;
+    color: #000 !important;
+}

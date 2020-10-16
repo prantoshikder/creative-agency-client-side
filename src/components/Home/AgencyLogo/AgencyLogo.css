@@ -1,0 +1,14 @@
+.agencyLogo {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.agencyLogo li {
+    list-style: none;
+    margin-left: 55px;
+    text-align: center;
+}
+
+.agencyLogo li img {
+    text-align: center;
+}

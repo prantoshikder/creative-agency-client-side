@@ -1,0 +1,15 @@
+.sidebar {
+    background: #fff;
+    padding: 35px;
+}
+
+.sidebar li {
+    margin-bottom: 2em;
+    margin-left: 25px;
+}
+
+.sidebar li:hover span {
+    display: inline-block;
+    transition: all linear .3s;
+    transform: translate(5px);
+}
