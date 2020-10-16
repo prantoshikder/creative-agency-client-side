@@ -12,7 +12,7 @@ const ServiceCard = ({ serviceData }) => {
                             {
                                 serviceData.image ? <img style={{ height: '65px' }} className="img-fluid" src={`data:image/png;base64,${serviceData.image.img}`} />
                                     :
-                                    <img style={{ height: '65px' }} src={`http://localhost:5000/${serviceData.image}`} className="img-fluid"></img>
+                                    <img style={{ height: '65px' }} src={`https://whispering-plains-10037.herokuapp.com/${serviceData.image}`} className="img-fluid"></img>
                             }
                         </a>
                         {/* <img src={serviceData.image} height="65px" alt="" /> */}

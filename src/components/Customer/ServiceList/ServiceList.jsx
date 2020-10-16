@@ -10,7 +10,7 @@ const ServiceList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
-        fetch('http://localhost:5000/serviceOrderList?email=' + loggedInUser.email)
+        fetch('https://whispering-plains-10037.herokuapp.com/serviceOrderList?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setOrderList(data));
     }, [])

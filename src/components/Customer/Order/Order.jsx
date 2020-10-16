@@ -9,7 +9,7 @@ const Order = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://whispering-plains-10037.herokuapp.com/addOrder', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
@@ -25,7 +25,7 @@ const Order = () => {
     const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
-        fetch('http://localhost:5000/isAdmin', {
+        fetch('https://whispering-plains-10037.herokuapp.com/isAdmin', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ email: loggedInUser.email })
@@ -37,7 +37,7 @@ const Order = () => {
 
     const [serviceList, setServiceList] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/allorderlist')
+        fetch('https://whispering-plains-10037.herokuapp.com/allorderlist')
             .then(res => res.json())
             .then(data => setServiceList(data));
     })

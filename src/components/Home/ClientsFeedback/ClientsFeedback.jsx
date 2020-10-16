@@ -7,7 +7,7 @@ import './ClientsFeedback';
 const ClientsFeedback = () => {
     const [clientList, setClientList] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/reviewlist')
+        fetch('https://whispering-plains-10037.herokuapp.com/reviewlist')
         .then(res => res.json())
         .then(data => setClientList(data));
     })

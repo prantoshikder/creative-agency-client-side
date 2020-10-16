@@ -5,7 +5,7 @@ import SideBar from '../../Customer/SideBar/SideBar';
 const AllService = () => {
     const [serviceList, setServiceList] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/allorderlist')
+        fetch('https://whispering-plains-10037.herokuapp.com/allorderlist')
             .then(res => res.json())
             .then(data => setServiceList(data));
     })

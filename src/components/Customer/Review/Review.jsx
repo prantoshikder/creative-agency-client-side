@@ -28,7 +28,7 @@ const Review = () => {
         formData.append('company', reviewInfo.company);
         formData.append('description', reviewInfo.description);
 
-        fetch('http://localhost:5000/addreview', {
+        fetch('https://whispering-plains-10037.herokuapp.com/addreview', {
             method: 'POST',
             body: formData
         })

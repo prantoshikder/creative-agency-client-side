@@ -5,7 +5,7 @@ import ServiceCard from '../ServiceCard/ServiceCard';
 const Service = () => {
     const [serviceData, setServiceData] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/addservicelist')
+        fetch('https://whispering-plains-10037.herokuapp.com/addservicelist')
             .then(res => res.json())
             .then(data => setServiceData(data));
     });

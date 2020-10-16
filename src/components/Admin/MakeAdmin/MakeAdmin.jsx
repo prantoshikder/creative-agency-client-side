@@ -6,7 +6,7 @@ import SideBar from '../../Customer/SideBar/SideBar';
 const MakeAdmin = () => {
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/addadmin', {
+        fetch('https://whispering-plains-10037.herokuapp.com/addadmin', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)

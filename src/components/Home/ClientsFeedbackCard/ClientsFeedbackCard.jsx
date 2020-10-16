@@ -12,10 +12,10 @@ const ClientsFeedbackCard = ({ list }) => {
                                 {
                                     list.image ? <img style={{ height: '60px',marginRight: '20px' }} className="img-fluid" src={`data:image/png;base64,${list.image.img}`} />
                                         :
-                                        <img style={{ height: '50px' }} src={`http://localhost:5000/${list.image}`} className="img-fluid"></img>
+                                        <img style={{ height: '50px' }} src={`https://whispering-plains-10037.herokuapp.com/${list.image}`} className="img-fluid"></img>
                                 }
                             </a>
-                            {/* <img src={`http://localhost:5000/${list.image}`} style={{marginRight: '20px'}} height="50px" alt=""/> */}
+                            {/* <img src={`https://whispering-plains-10037.herokuapp.com/${list.image}`} style={{marginRight: '20px'}} height="50px" alt=""/> */}
                             <div className="text">
                                 <h5>{list.name}</h5>
                                 <p>{list.company}</p>
