@@ -1,8 +1,8 @@
-# CREATIVE AGENCY - A SERVICE SELLER WEB APPLICATION
+## CREATIVE AGENCY - A SERVICE SELLER WEB APPLICATION
 
 Live Site: [https://client-side-creative-agency.web.app/](https://client-side-creative-agency.web.app/)
 
-..* Full Stack Website
++ Full Stack Website.
 
 
 
