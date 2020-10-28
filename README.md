@@ -1,8 +1,18 @@
-## CREATIVE AGENCY - A SERVICE SELLER WEB APPLICATION
+## CREATIVE AGENCY
 
 Live Site: [https://client-side-creative-agency.web.app/](https://client-side-creative-agency.web.app/)
 
-+ Full Stack Website.
++ MERN stack Project.
+
++ A service seller web application.
+
++ Admin will add his required courses. 
+
++ Admin will check how the customer has reviewed any of his courses.
+
++ The customer must first log in as a user to complete his course.
+
++ The customer will post a review of his service on the website.
 
 
 
