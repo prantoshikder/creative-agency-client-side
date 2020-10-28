@@ -6,6 +6,10 @@ Live Site: [https://client-side-creative-agency.web.app/](https://client-side-cr
 
 + A service seller web application.
 
++ One-page web application with interactive UI.
+
++ We have implemented authentication for google, facebook and manual email.
+
 + Admin will add his required courses. 
 
 + Admin will check how the customer has reviewed any of his courses.
@@ -17,6 +21,8 @@ Live Site: [https://client-side-creative-agency.web.app/](https://client-side-cr
 
 
 
+
+##
 
 
 
