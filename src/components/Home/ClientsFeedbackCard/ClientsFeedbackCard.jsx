@@ -8,7 +8,7 @@ const ClientsFeedbackCard = ({ clientList }) => {
                 <div className="card" style={{ borderRadius: '10px', boxShadow: '0px 0px 10px #111430', height: '250px' }}>
                     <div className="card-body">
                         <div className="client-profile d-flex">
-                            <a href="#" className="card-link">
+                            <a href="#!" className="card-link">
                                 {
                                     clientList.image ? <img style={{ height: '60px',marginRight: '20px' }} className="img-fluid" src={`data:image/png;base64,${clientList.image.img}`} />
                                         :

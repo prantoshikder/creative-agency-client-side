@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../../Service/Navbar/Navbar';
+import Navbar from '../../Shared/Navbar/Navbar';
 import AgencyLogo from '../AgencyLogo/AgencyLogo';
 import ClientsFeedback from '../ClientsFeedback/ClientsFeedback';
 import Contact from '../Contact/Contact';

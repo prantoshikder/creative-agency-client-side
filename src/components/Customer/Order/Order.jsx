@@ -20,7 +20,6 @@ const Order = () => {
             })
     };
 
-
     const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
@@ -33,17 +32,12 @@ const Order = () => {
             .then(data => setIsAdmin(data));
     }, []);
 
-
     const [serviceList, setServiceList] = useState([]);
     useEffect(() => {
         fetch('https://whispering-plains-10037.herokuapp.com/allorderlist')
             .then(res => res.json())
             .then(data => setServiceList(data));
     });
-
-
-
-
 
     return (
         <div className="order-part" style={{ overflow: 'hidden', background: '#E5E5E5' }}>
