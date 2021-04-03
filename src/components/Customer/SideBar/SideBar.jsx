@@ -18,13 +18,13 @@ const SideBar = () => {
         })
             .then(res => res.json())
             .then(data => setIsAdmin(data));
-    }, [])
+    }, []);
 
 
     return (
         <div className="row">
             <div className="sidebar col-md-12" style={{ height: "89vh" }}>
-                <ul className="list-unstyled">
+                <ul className="list-unStyled">
                     {
                         isAdmin ?
                             <div>

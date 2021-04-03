@@ -26,7 +26,7 @@ const ServiceList = () => {
                     <div className="d-flex justify-content-center">
                         <div className="row w-75">
                             {
-                                orderList.map(orderList => <ServiceListCard orderList={orderList}></ServiceListCard>)
+                                orderList.map(orderList => <ServiceListCard orderList={orderList._id} orderList={orderList}></ServiceListCard>)
                             }
                         </div>
                     </div>

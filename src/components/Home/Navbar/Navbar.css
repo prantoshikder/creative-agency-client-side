@@ -3,6 +3,7 @@
 }
 
 .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
     font-weight: bold;
     font-size: 17px;
     color: #000 !important;

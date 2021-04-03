@@ -16,7 +16,6 @@ const Order = () => {
         })
             .then(res => res.json())
             .then(success => {
-                console.log(success);
                 alert('Appointment created successfully');
             })
     };
@@ -32,7 +31,7 @@ const Order = () => {
         })
             .then(res => res.json())
             .then(data => setIsAdmin(data));
-    }, [])
+    }, []);
 
 
     const [serviceList, setServiceList] = useState([]);
@@ -40,7 +39,7 @@ const Order = () => {
         fetch('https://whispering-plains-10037.herokuapp.com/allorderlist')
             .then(res => res.json())
             .then(data => setServiceList(data));
-    })
+    });
 
 
 

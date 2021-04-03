@@ -1,7 +1,7 @@
 import React from 'react';
 import './ClientsFeedbackCard.css';
 
-const ClientsFeedbackCard = ({ list }) => {
+const ClientsFeedbackCard = ({ clientList }) => {
     return (
         <div className="col-md-4 mt-3">
             <div className="clientFeedback-card">
@@ -10,19 +10,19 @@ const ClientsFeedbackCard = ({ list }) => {
                         <div className="client-profile d-flex">
                             <a href="#" className="card-link">
                                 {
-                                    list.image ? <img style={{ height: '60px',marginRight: '20px' }} className="img-fluid" src={`data:image/png;base64,${list.image.img}`} />
+                                    clientList.image ? <img style={{ height: '60px',marginRight: '20px' }} className="img-fluid" src={`data:image/png;base64,${clientList.image.img}`} />
                                         :
-                                        <img style={{ height: '50px' }} src={`https://whispering-plains-10037.herokuapp.com/${list.image}`} className="img-fluid"></img>
+                                        <img style={{ height: '50px' }} src={`https://whispering-plains-10037.herokuapp.com/${clientList.image}`} className="img-fluid"></img>
                                 }
                             </a>
-                            {/* <img src={`https://whispering-plains-10037.herokuapp.com/${list.image}`} style={{marginRight: '20px'}} height="50px" alt=""/> */}
+                            {/* <img src={`https://whispering-plains-10037.herokuapp.com/${clientList.image}`} style={{marginRight: '20px'}} height="50px" alt=""/> */}
                             <div className="text">
-                                <h5>{list.name}</h5>
-                                <p>{list.company}</p>
+                                <h5>{clientList.name}</h5>
+                                <p>{clientList.company}</p>
                             </div>
                         </div>
                         <div className="client-content">
-                            <p className="">{list.description}</p>
+                            <p className="">{clientList.description}</p>
                         </div>
                     </div>
                 </div>

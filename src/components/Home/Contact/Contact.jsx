@@ -15,13 +15,13 @@ const Contact = () => {
                     <div className="col-md-6">
                         <form>
                             <div className="form-group">
-                                <input type="email" name="email" className="form-control" placeholder="Your email address" autocomplete="off" />
+                                <input type="email" name="email" className="form-control" placeholder="Your email address" autoComplete="off" />
                             </div>
                             <div className="form-group">
-                                <input type="email" name="name" className="form-control" placeholder="Your name / company's name" autocomplete="off" />
+                                <input type="email" name="name" className="form-control" placeholder="Your name / company's name" autoComplete="off" />
                             </div>
                             <div className="form-group">
-                                <textarea className="form-control" name="message" rows="4" autocomplete="off" placeholder="Your message"></textarea>
+                                <textarea className="form-control" name="message" rows="4" autoComplete="off" placeholder="Your message"></textarea>
                             </div>
                             <button className="brand-btn font-weight-bold mt-3">SEND</button>
                         </form>

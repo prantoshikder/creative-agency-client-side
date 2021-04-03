@@ -10,7 +10,7 @@ const ClientsFeedback = () => {
         fetch('https://whispering-plains-10037.herokuapp.com/reviewlist')
         .then(res => res.json())
         .then(data => setClientList(data));
-    })
+    }, []);
     return (
         <section className="clientsFeedback-part pb-5">
             <div className="container">
@@ -21,7 +21,7 @@ const ClientsFeedback = () => {
             <div className="d-flex justify-content-center">
                     <div className="row w-75">
                         {
-                            clientList.map(list => <ClientsFeedbackCard list={list}></ClientsFeedbackCard>)
+                            clientList.map(clientList => <ClientsFeedbackCard key={clientList._id} clientList={clientList}></ClientsFeedbackCard>)
                         }
                     </div>
                 </div>
