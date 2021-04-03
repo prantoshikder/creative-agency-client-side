@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul, li, ol{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+    outline: none;
+}
+h1, h2, h3, h4, h5, h6, a, p, ul, ol, li{
+    margin: 0;
+}
 .brand-btn {
     background: #000;
     color: #fff;
@@ -8,7 +34,6 @@
     border-radius: 5px;
     border: none;
     outline: none;
-    font-weight: bold;
     font-size: 17px;
     transition: all linear .3s;
 }

@@ -1,0 +1,16 @@
+.main-menu{
+    background: #fff;
+    padding: 5px 0px;
+}
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+.navbar-nav .nav-item .nav-link {
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 17px;
+    color: #000 !important;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    text-decoration: none !important;
+}

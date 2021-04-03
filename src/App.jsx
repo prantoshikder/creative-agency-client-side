@@ -14,6 +14,7 @@ import Review from './components/Customer/Review/Review';
 import MakeAdmin from './components/Admin/MakeAdmin/MakeAdmin';
 import AddService from './components/Admin/AddService/AddService';
 import AllService from './components/Admin/AllService/AllService';
+import NoMatch from './components/NoMatch/NoMatch';
 
 export const UserContext = createContext();
 
@@ -23,33 +24,16 @@ function App() {
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
       <Router>
         <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-          <PrivateRoute path="/order">
-            <Order></Order>
-          </PrivateRoute>
-          <PrivateRoute path="/service list">
-            <ServiceList></ServiceList>
-          </PrivateRoute>
-          <PrivateRoute path="/review">
-            <Review></Review>
-          </PrivateRoute>
-          <PrivateRoute path="/all service">
-            <AllService></AllService>
-          </PrivateRoute>
-          <PrivateRoute path="/add service">
-            <AddService></AddService>
-          </PrivateRoute>
-          <PrivateRoute path="/make admin">
-            <MakeAdmin></MakeAdmin>
-          </PrivateRoute>
+          <Route exact path="/"><Home /></Route>
+          <Route path="/home"><Home /></Route>
+          <Route path="/login"><Login /></Route>
+          <PrivateRoute path="/order"><Order /></PrivateRoute>
+          <PrivateRoute path="/service list"><ServiceList /></PrivateRoute>
+          <PrivateRoute path="/review"><Review /></PrivateRoute>
+          <PrivateRoute path="/all service"><AllService /></PrivateRoute>
+          <PrivateRoute path="/add service"><AddService /></PrivateRoute>
+          <PrivateRoute path="/make admin"><MakeAdmin /></PrivateRoute>
+          <Route path="*"><NoMatch /></Route>
         </Switch>
       </Router>
     </UserContext.Provider>

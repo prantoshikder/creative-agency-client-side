@@ -18,7 +18,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
-                                <Link to="/home">
+                                <Link smooth to="/home">
                                     <a className="nav-link" href="#!">Home <span className="sr-only">(current)</span></a>
                                 </Link>
                             </li>
