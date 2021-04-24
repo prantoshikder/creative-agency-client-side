@@ -12,7 +12,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 a, a:hover{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 ul, li, ol{
     list-style: none;
@@ -23,6 +23,7 @@ img{
 }
 h1, h2, h3, h4, h5, h6, a, p, ul, ol, li{
     margin: 0;
+    padding: 0;
 }
 .brand-btn {
     background: #000;
@@ -44,4 +45,23 @@ h1, h2, h3, h4, h5, h6, a, p, ul, ol, li{
 
 .brand-btn:focus {
     outline: none;
+}
+.common-section-title{
+    padding-bottom: 30px;
+}
+.common-section-title h2{
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.common-section-title h2 span{
+    color: #ff5200;
+}
+.footer-title h4{
+    font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+	padding-bottom: 20px;
 }

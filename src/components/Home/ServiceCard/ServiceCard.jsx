@@ -4,7 +4,7 @@ import './ServiceCard.css';
 
 const ServiceCard = ({ serviceData }) => {
     return (
-        <div className="col-md-4 pt-3">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
             <Link to={`/order`}>
                 <div className="card" style={{ border: 'none', height: '300px', padding: '15px', borderRadius: '10px', transition: 'all linear .3s' }}>
                     <div className="card-body text-center">

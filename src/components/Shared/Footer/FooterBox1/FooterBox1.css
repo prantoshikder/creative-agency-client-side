@@ -1,0 +1,16 @@
+.single-box-content p{
+    color: #ababab;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.footer_social_icon ul li{
+    margin-right: 20px;
+}
+.footer_social_icon ul li a .icon{
+    color: #ff5200;
+    transition: all linear .3s;
+}
+.footer_social_icon ul li a .icon:hover{
+    color: #ababab;
+}

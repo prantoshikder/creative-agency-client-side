@@ -1,0 +1,11 @@
+.contacts .contact-icon .icon{
+    color: #ff5200;
+    margin-right: 10px;
+}
+.contacts .contact-desc{
+	margin-top: -2px;
+}
+.contacts .contact-desc p{
+	font-size: 15px;
+	color: #ababab;
+}

@@ -17,14 +17,14 @@ const ClientsFeedback = () => {
                 <div className="clients-heading text-center pt-2 pb-5">
                     <h2 className="font-weight-bold">Clients <span style={{color: '#7AB259'}}>Feedback</span></h2>
                 </div>
-            </div>
-            <div className="d-flex justify-content-center">
-                    <div className="row w-75">
+                <div className="d-flex justify-content-center">
+                    <div className="row">
                         {
                             clientList.map(clientList => <ClientsFeedbackCard key={clientList._id} clientList={clientList}></ClientsFeedbackCard>)
                         }
                     </div>
                 </div>
+            </div>
         </section>
     );
 };

@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <Link to="/">
-                        <img src={logo} height="50px" alt=""/>
+                        <img src={logo} className="header-logo" height="50px" alt=""/>
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

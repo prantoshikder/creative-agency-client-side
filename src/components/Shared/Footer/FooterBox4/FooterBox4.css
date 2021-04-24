@@ -1,0 +1,65 @@
+.footer-recent-post{
+	overflow: hidden;
+}
+.footer-recent-post:last-child{
+	margin-top: 25px;
+}
+.recent-post-data{
+    width: 60px;
+    height: 90px;
+    overflow: hidden;
+    background: #312d31;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+.recent-post-data span:first-child{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+	font-family: 'Work Sans', sans-serif;
+}
+.recent-post-data span:nth-child(2){
+	color: #fff;
+	font-size: 9px;
+	font-weight: 700;
+}
+.recent-post-data span:last-child{
+	color: #fff;
+	font-size: 9px;
+	font-weight: 700;
+	display: block;
+}
+.recent-post-title{
+	overflow: hidden;
+	padding-left: 20px;
+}
+.recent-post-title h3{
+	width: 192px;
+    line-height: 20px;
+}
+.recent-post-title h3 a{
+	color: #ababab;
+	font-size: 16px;
+	font-weight: 500;
+	transition: all linear .3s;
+}
+.recent-post-title h3 a:hover{
+	color: #ff5200;
+}
+.recent-post-title ul li{
+	color: #ababab;
+	font-weight: 400;
+	display: inline-block;
+	font-size: 12px;
+	margin: 8px 0px;
+	margin-left: 15px;
+}
+.recent-post-title ul li:first-child{
+	margin-left: 0px;
+}
+.recent-post-title ul li .icon{
+	color: #ff5200;
+	margin: 0px 8px 0px 0px;
+}

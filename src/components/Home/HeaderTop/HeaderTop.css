@@ -1,0 +1,46 @@
+.headerTop{
+    background: #e7e7e7;
+}
+.headerTop-wrapper{
+    padding: 8px 0px;
+}
+.phone p {
+    color: #000;
+    font-size: 15px;
+    margin: 0px;
+}
+.phone p .icon{
+	color: #ff5200;
+	margin-right: 10px;
+}
+.email{
+    margin-left: 30px;
+}
+.email p {
+    color: #000;
+    font-size: 15px;
+    margin: 0px;
+}
+.email p .icon{
+	color: #ff5200;
+	margin-right: 8px;
+}
+.social ul{
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social ul li{
+    margin-right: 30px;
+}
+.social ul li:last-child{
+    margin-right: 0px;
+}
+.social ul li a .icon{
+    color: #ff5200;
+    transition: all linear .3s;
+}
+.social ul li a .icon:hover{
+    color: #fff;
+}

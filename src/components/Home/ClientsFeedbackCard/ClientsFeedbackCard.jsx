@@ -3,7 +3,7 @@ import './ClientsFeedbackCard.css';
 
 const ClientsFeedbackCard = ({ clientList }) => {
     return (
-        <div className="col-md-4 mt-3">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt-3">
             <div className="clientFeedback-card">
                 <div className="card" style={{ borderRadius: '10px', boxShadow: '0px 0px 10px #111430', height: '250px' }}>
                     <div className="card-body">

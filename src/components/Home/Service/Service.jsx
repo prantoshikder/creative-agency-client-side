@@ -12,15 +12,15 @@ const Service = () => {
     return (
         <section className="service-part">
             <div className="container">
-                <div className="service-heading  text-center pt-5 pb-5">
-                    <h2 className="font-weight-bold">Provide awesome <span style={{ color: '#7AB259' }}>services</span></h2>
+                <div className="common-section-title">
+                    <h2>Provide awesome <span>services</span></h2>
                 </div>
-            </div>
-            <div className="d-flex justify-content-center pt-2 pb-5 mb-5">
-                <div className="row w-75">
-                    {
-                        serviceData.map(serviceData => <ServiceCard key={serviceData._id} serviceData={serviceData}></ServiceCard>)
-                    }
+                <div className="d-flex justify-content-center pt-2 pb-5 mb-5">
+                    <div className="row">
+                        {
+                            serviceData.map(serviceData => <ServiceCard key={serviceData._id} serviceData={serviceData}></ServiceCard>)
+                        }
+                    </div>
                 </div>
             </div>
         </section>

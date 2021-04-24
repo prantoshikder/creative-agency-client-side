@@ -1,0 +1,67 @@
+.subscriber-section{
+    overflow: inherit;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -70px;
+}
+.subs-boxes-wrapper{
+	background: #ff5200;
+	padding: 30px 22px 35px 22px;
+	overflow: hidden;
+	border-radius: 3px;
+}
+.single-subs-box h4.subs-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.input-box{}
+.input-box form{
+	position: relative;
+}
+.input-box form input{
+	padding: 12px 60px 12px 20px;
+	border-radius: 100px;
+	border: 0;
+	font-size: 16px;
+}
+.input-box form button{
+	position: absolute;
+	background: #000;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 12px 20px 12px 20px;
+	border: 0;
+	border-radius: 100px;
+	margin-left: -50px;
+}
+.single-subs-box p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+}
+.subs-follow-icons{}
+.subs-follow-icons ul{
+	overflow: hidden;
+}
+.subs-follow-icons ul li{
+	float: left;
+}
+.subs-follow-icons ul li a{
+	border: 1px solid #fff;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 15px;
+    color: #fff;
+    transition: all linear .3s;
+}
+.subs-follow-icons ul li a:hover{
+	background: #fff;
+	color: #000;
+}
