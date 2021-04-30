@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ClientsFeedbackCard from '../ClientsFeedbackCard/ClientsFeedbackCard';
-import './ClientsFeedback';
+import './ClientsFeedback.css';
 
 
 
@@ -12,10 +12,10 @@ const ClientsFeedback = () => {
         .then(data => setClientList(data));
     }, []);
     return (
-        <section className="clientsFeedback-part pb-5">
+        <section className="clientsFeedback-part">
             <div className="container">
-                <div className="clients-heading text-center pt-2 pb-5">
-                    <h2 className="font-weight-bold">Clients <span style={{color: '#7AB259'}}>Feedback</span></h2>
+                <div className="common-section-title">
+                    <h2>Clients <span>Feedback</span></h2>
                 </div>
                 <div className="d-flex justify-content-center">
                     <div className="row">

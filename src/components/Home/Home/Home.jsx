@@ -3,15 +3,16 @@ import Footer from '../../Shared/Footer/Footer';
 import Navbar from '../../Shared/Navbar/Navbar';
 import Subscriber from '../../Shared/Subscriber/Subscriber';
 import AgencyLogo from '../AgencyLogo/AgencyLogo';
-import Blogs from '../Blogs/Blogs';
-import ClientsFeedback from '../ClientsFeedback/ClientsFeedback';
+import Blogs from '../Blogs/Blogs/Blogs';
+import ClientsFeedback from '../ClientsFeedback/ClientsFeedback/ClientsFeedback';
 import Contact from '../Contact/Contact';
 import HeroArea from '../HeroArea/HeroArea';
-import Service from '../Service/Service';
+import Service from '../Service/Service/Service';
 import SampleWorks from '../SampleWorks/SampleWorks/SampleWorks';
 import AboutUs from '../AboutUs/AboutUs';
 import HeaderTop from '../HeaderTop/HeaderTop';
 import WorkingStudies from '../WorkingStudies/WorkingStudies/WorkingStudies';
+import ProjectCount from '../ProjectCount/ProjectCount';
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
             <Service></Service>
             <SampleWorks></SampleWorks>
             <WorkingStudies></WorkingStudies>
+            <ProjectCount></ProjectCount>
             <ClientsFeedback></ClientsFeedback>
             <Contact></Contact>
             <Blogs></Blogs>

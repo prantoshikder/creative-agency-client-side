@@ -1,0 +1,25 @@
+.project-count-section{
+    background-image: url(../../../images/ProjectCountImg/project-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.project-bgOverlay{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 100px 0px;
+}
+.project-count{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.project-count h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.project-count h4{
+    font-weight: 700;
+}

@@ -1,0 +1,38 @@
+.single-blogs{
+    margin-top: 30px;
+}
+.single-blogs-img{
+    overflow: hidden;
+    transition: all linear .3s;
+}
+.single-blogs-img img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    transition: all linear .3s;
+}
+.single-blogs-content{
+    padding: 15px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0px 4px 0px 0px #ff5200;
+}
+.single-blogs-content h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ff5200;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.single-blogs-content p{
+    text-align: justify;
+}
+.blogs-readMore-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff5200;
+}
+.single-blogs:hover .single-blogs-img img{
+    transform: scale(1.1);
+}

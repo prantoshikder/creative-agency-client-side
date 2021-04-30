@@ -15,6 +15,7 @@ import MakeAdmin from './components/Admin/MakeAdmin/MakeAdmin';
 import AddService from './components/Admin/AddService/AddService';
 import AllService from './components/Admin/AllService/AllService';
 import NoMatch from './components/NoMatch/NoMatch';
+import Blog from './components/Blog/Blog/Blog';
 
 export const UserContext = createContext();
 
@@ -33,6 +34,7 @@ function App() {
           <PrivateRoute path="/all service"><AllService /></PrivateRoute>
           <PrivateRoute path="/add service"><AddService /></PrivateRoute>
           <PrivateRoute path="/make admin"><MakeAdmin /></PrivateRoute>
+          <Route path="/blogs"><Blog /></Route>
           <Route path="*"><NoMatch /></Route>
         </Switch>
       </Router>

@@ -1,0 +1,19 @@
+.blogs-section{
+    padding: 80px 0px;
+}
+.show-allBlogs-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+.moreBlogs-btn{
+    padding: 10px 30px;
+    background: #1a1a1a;
+    color: #fff;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+.moreBlogs-btn:hover{
+    color: #ff5200;
+}

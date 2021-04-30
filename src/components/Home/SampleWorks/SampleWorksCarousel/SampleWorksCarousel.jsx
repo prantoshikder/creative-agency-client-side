@@ -1,17 +1,8 @@
 import React from 'react';
-// import { Carousel } from '3d-react-carousal';
 import './SampleWorksCarousel.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
-// const slides = [
-//     <img src="https://img.techpowerup.org/201014/carousel-1.png" height="400px" alt="1" />,
-//     <img src="https://img.techpowerup.org/201014/carousel-2.png" height="400px" alt="2" />,
-//     <img src="https://img.techpowerup.org/201014/carousel-4.png" height="400px" alt="3" />,
-//     <img src="https://img.techpowerup.org/201014/carousel-5.png" height="400px" alt="4" />
-// ];
-
 
 const WorksCarousel = () => {
 
