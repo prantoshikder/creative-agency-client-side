@@ -18,7 +18,6 @@ import NoMatch from './components/NoMatch/NoMatch';
 import Blog from './components/Blog/Blog/Blog';
 import Services from './components/Services/Services/Services';
 import About from './components/About/About/About';
-import OurPortfolio from './components/OurPortfolio/OurPortfolio/OurPortfolio';
 import OurTeam from './components/OurTeam/OurTeam/OurTeam';
 import ContactUs from './components/ContactUs/ContactUs/ContactUs';
 
@@ -41,7 +40,6 @@ function App() {
           <PrivateRoute path="/make admin"><MakeAdmin /></PrivateRoute>
           <Route path="/about"><About /></Route>
           <Route path="/services"><Services /></Route>
-          <Route path="/ourPortfolio"><OurPortfolio /></Route>
           <Route path="/outTeam"><OurTeam showMoreDev /></Route>
           <Route path="/blogs"><Blog showAllBlogs /></Route>
           <Route path="/contactUs"><ContactUs /></Route>

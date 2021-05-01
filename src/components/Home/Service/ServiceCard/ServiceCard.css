@@ -1,3 +1,9 @@
 .card:hover {
     box-shadow: 0px 0px 15px #111430;
 }
+.card-body img{
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    margin: auto;
+}

@@ -10,9 +10,9 @@ const ServiceCard = ({ serviceData }) => {
                     <div className="card-body text-center">
                         {/* <a href="#CardLink" className="card-link"> */}
                             {
-                                serviceData.image ? <img style={{ height: '65px' }} className="img-fluid" src={`data:image/png;base64,${serviceData.image.img}`} />
+                                serviceData.image ? <img src={`data:image/png;base64,${serviceData.image.img}`} />
                                     :
-                                    <img style={{ height: '65px' }} className="img-fluid" src={`https://whispering-plains-10037.herokuapp.com/${serviceData.image}`} />
+                                    <img src={`https://whispering-plains-10037.herokuapp.com/${serviceData.image}`} />
                             }
                         {/* </a> */}
                         <div className="card-content pt-2">
