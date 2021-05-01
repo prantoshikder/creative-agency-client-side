@@ -2,9 +2,9 @@
     background: #f5f6f6;
     padding: 80px 0px;
 }
-
-.contact-form form input {}
-
-.copy-content {
-    margin-top: 5%;
+.contact-form input{
+    border-radius: 30px;
+}
+.contact-form textarea{
+    border-radius: 20px;
 }

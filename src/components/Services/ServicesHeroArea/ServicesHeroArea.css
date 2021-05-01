@@ -1,0 +1,19 @@
+.services-hero-section{
+    background-image: url(../../../images/ServicesImg/services-banner-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.services-bgOverlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 200px 0px;
+}
+.services-content{
+    text-align: center;
+    color: #fff;
+}
+.services-content h1{
+    font-size: 55px;
+    font-weight: 500;
+}

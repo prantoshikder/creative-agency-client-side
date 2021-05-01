@@ -16,6 +16,10 @@ import AddService from './components/Admin/AddService/AddService';
 import AllService from './components/Admin/AllService/AllService';
 import NoMatch from './components/NoMatch/NoMatch';
 import Blog from './components/Blog/Blog/Blog';
+import Services from './components/Services/Services/Services';
+import About from './components/About/About/About';
+import OurPortfolio from './components/OurPortfolio/OurPortfolio/OurPortfolio';
+import OurTeam from './components/OurTeam/OurTeam/OurTeam';
 
 export const UserContext = createContext();
 
@@ -34,7 +38,11 @@ function App() {
           <PrivateRoute path="/all service"><AllService /></PrivateRoute>
           <PrivateRoute path="/add service"><AddService /></PrivateRoute>
           <PrivateRoute path="/make admin"><MakeAdmin /></PrivateRoute>
-          <Route path="/blogs"><Blog /></Route>
+          <Route path="/about"><About /></Route>
+          <Route path="/services"><Services /></Route>
+          <Route path="/ourPortfolio"><OurPortfolio /></Route>
+          <Route path="/outTeam"><OurTeam showMoreDev /></Route>
+          <Route path="/blogs"><Blog showAllBlogs /></Route>
           <Route path="*"><NoMatch /></Route>
         </Switch>
       </Router>

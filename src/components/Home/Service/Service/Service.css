@@ -1,0 +1,19 @@
+.service-part{
+    padding: 80px 0px;
+}
+.service-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.moreServices-btn{
+    border: 0;
+    padding: 10px 30px;
+    background: #1a1a1a;
+    color: #fff;
+    transition: all linear .3s;
+}
+.moreServices-btn:hover{
+    color: #ff5200;
+}

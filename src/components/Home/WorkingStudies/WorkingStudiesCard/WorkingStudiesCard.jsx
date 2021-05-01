@@ -10,17 +10,17 @@ const WorkingStudiesCard = (props) => {
             <div className="single-team-studies">
                 <div className="team-studies-image">
                     <img src={image} className="img-fluid" alt="" />
-                    <div className="team-studies-bgOverlay">
-                        <div className="team-studies-content">
-                            <div class="social-icon">
-                                <a href="#!"><FontAwesomeIcon className="icon" icon={faFacebookF} /></a>
-                                <a href="#!"><FontAwesomeIcon className="icon" icon={faTwitter} /></a>
-                                <a href="#!"><FontAwesomeIcon className="icon" icon={faGoogle} /></a>
-                                <a href="#!"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
-                                <a href="#!"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
-                            </div>
-                            <h4>{studiesTitle}</h4>
+                </div>
+                <div className="team-studies-bgOverlay">
+                    <div className="team-studies-content">
+                        <div class="social-icon">
+                            <a href="#!"><FontAwesomeIcon className="icon" icon={faFacebookF} /></a>
+                            <a href="#!"><FontAwesomeIcon className="icon" icon={faTwitter} /></a>
+                            <a href="#!"><FontAwesomeIcon className="icon" icon={faGoogle} /></a>
+                            <a href="#!"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
+                            <a href="#!"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
                         </div>
+                        <h4>{studiesTitle}</h4>
                     </div>
                 </div>
             </div>

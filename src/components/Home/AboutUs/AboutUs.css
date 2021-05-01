@@ -1,3 +1,33 @@
 .aboutUs-section{
-    padding: 80px 0px;
+    padding: 80px 0px 100px 0px;
+}
+.aboutUs-content h3{
+    color: #ff5200;
+    font-weight: 500;
+}
+.aboutUs-content ul li{
+    padding: 5px 8px;
+    margin-top: 5px;
+    border: 1px solid #f1f1f1;
+}
+.aboutUs-content ul li .icon{
+    color: #ff5200;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.aboutUs-btn{
+    padding-top: 15px;
+}
+.aboutUs-btn button{
+    border: 0;
+    padding: 10px 30px;
+    background: #1a1a1a;
+    color: #fff;
+    transition: all linear .3s;
+}
+.aboutUs-btn button .icon{
+    margin-left: 10px;
+}
+.aboutUs-btn button:hover{
+    color: #ff5200;
 }

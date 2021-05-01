@@ -1,0 +1,22 @@
+.portfolio-hero-section{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.portfolio-bg-overlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 200px 0px;
+}
+.portfolio-content{
+    text-align: center;
+    color: #fff;
+}
+.portfolio-content h4{
+    font-weight: 700;
+}
+.portfolio-content h1{
+    font-size: 55px;
+    font-weight: 700;
+}

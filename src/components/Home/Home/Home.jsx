@@ -13,6 +13,8 @@ import AboutUs from '../AboutUs/AboutUs';
 import HeaderTop from '../HeaderTop/HeaderTop';
 import WorkingStudies from '../WorkingStudies/WorkingStudies/WorkingStudies';
 import ProjectCount from '../ProjectCount/ProjectCount';
+import NavigationMap from '../NavigationMap/NavigationMap';
+import DeveloperProfile from '../DeveloperProfile/DeveloperProfile/DeveloperProfile';
 
 const Home = () => {
     return (
@@ -26,9 +28,11 @@ const Home = () => {
             <SampleWorks></SampleWorks>
             <WorkingStudies></WorkingStudies>
             <ProjectCount></ProjectCount>
+            <DeveloperProfile></DeveloperProfile>
             <ClientsFeedback></ClientsFeedback>
             <Contact></Contact>
             <Blogs></Blogs>
+            <NavigationMap></NavigationMap>
             <Subscriber></Subscriber>
             <Footer></Footer>
         </>

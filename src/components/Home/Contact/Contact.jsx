@@ -13,18 +13,30 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                        <form action="">
-                            <div className="form-group">
-                                <input type="email" name="email" className="form-control" placeholder="Your email address" autoComplete="off" />
-                            </div>
-                            <div className="form-group">
-                                <input type="email" name="name" className="form-control" placeholder="Your name / company's name" autoComplete="off" />
-                            </div>
-                            <div className="form-group">
-                                <textarea className="form-control" name="message" rows="4" autoComplete="off" placeholder="Your message"></textarea>
-                            </div>
-                            <button className="brand-btn font-weight-bold mt-3">SEND</button>
-                        </form>
+                        <div className="contact-form">
+                            <form action="">
+                                <div className="form-row">
+                                    <div className="form-group col-md-6">
+                                        <input type="name" className="form-control" autocomplete="off" placeholder="Name *" />
+                                    </div>
+                                    <div className="form-group col-md-6">
+                                        <input type="email" className="form-control" autocomplete="off" placeholder="Email Address *" />
+                                    </div>
+                                    <div className="form-group col-md-6">
+                                        <input type="number" className="form-control" autocomplete="off" placeholder="Phone Number *" />
+                                    </div>
+                                    <div className="form-group col-md-6">
+                                        <input type="date" className="form-control" placeholder="Date *" data-type="datepicker" />
+                                    </div>
+                                    <div className="form-group col-md-12">
+                                        <textarea type="text" className="form-control" rows="4" placeholder="Your Note *" style={{position: 'relative !important', zIndex: 'auto !important'}}></textarea>
+                                    </div>
+                                </div>
+                                <div className="contact-btn">
+                                    <button type="submit">Book A Table</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

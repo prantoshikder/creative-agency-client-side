@@ -1,6 +1,5 @@
 import React from 'react';
 import './BlogsCard.css';
-import { Link } from 'react-router-dom';
 
 const BlogsCard = (props) => {
     const { image, blogsTitle, blogsDescription } = props.blogsContent;
@@ -14,7 +13,7 @@ const BlogsCard = (props) => {
                     <h4>{blogsTitle}</h4>
                     <p>{blogsDescription}</p>
                     <div className="blogs-btn">
-                        <Link className="blogs-readMore-btn" to="">Read More</Link>
+                        <button className="blogs-readMore-btn">Read More</button>
                     </div>
                 </div>
             </div>

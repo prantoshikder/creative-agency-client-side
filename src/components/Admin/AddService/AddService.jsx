@@ -45,11 +45,11 @@ const AddService = () => {
         <div className="addService-part" style={{ overflow: 'hidden', background: '#E5E5E5' }}>
             <HeaderMenu></HeaderMenu>
             <div className="row">
-                <div className="col-md-2">
+                <div className="col-lg-2">
                     <SideBar></SideBar>
                 </div>
-                <div className="col-md-10">
-                    <div className="addService-form" style={{height: '350px', marginTop:'20px', background:'#fff', padding:'10px', borderRadius: '10px'}}>
+                <div className="col-lg-6 offset-lg-2">
+                    <div className="addService-form" style={{marginTop:'30px', background:'#fff', padding:'40px', borderRadius: '10px'}}>
                         <form onSubmit={handleSubmit}>
                             <div className="row">
                                 <div className="col-md-6">

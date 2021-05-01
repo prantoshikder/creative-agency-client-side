@@ -1,0 +1,19 @@
+.developer-profile-section{
+    padding: 80px 0px;
+}
+.vevProfile-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+.moreDev-btn{
+    padding: 10px 30px;
+    background: #1a1a1a;
+    color: #fff;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+.moreDev-btn:hover{
+    color: #ff5200;
+}

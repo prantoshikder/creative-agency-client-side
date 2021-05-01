@@ -4,13 +4,15 @@ import HeaderTop from '../../Home/HeaderTop/HeaderTop';
 import Footer from '../../Shared/Footer/Footer';
 import Navbar from '../../Shared/Navbar/Navbar';
 import Subscriber from '../../Shared/Subscriber/Subscriber';
+import BlogsHeroArea from '../BlogsHeroArea/BlogsHeroArea';
 
 const Blog = () => {
     return (
         <>
             <HeaderTop></HeaderTop>
             <Navbar></Navbar>
-            <Blogs></Blogs>
+            <BlogsHeroArea></BlogsHeroArea>
+            <Blogs showAllBlogs></Blogs>
             <Subscriber></Subscriber>
             <Footer></Footer>
         </>

@@ -26,7 +26,7 @@ const MakeAdmin = () => {
                 </div>
                 <div className="col-md-10">
                     <div className="row">
-                        <div className="col-md-6 offset-md-3" style={{height:'300px', width:'550px', borderRadius: '10px', background:'#fff'}}>
+                        <div className="col-md-6 offset-md-3" style={{padding:'30px',marginTop:'20px', borderRadius: '10px', background:'#fff'}}>
                             <form className="p-3" onSubmit={handleSubmit(onSubmit)}>
                                 <div className="form-group">
                                     <label for="exampleInputEmail1">Email address</label>

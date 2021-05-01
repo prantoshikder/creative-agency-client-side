@@ -1,0 +1,19 @@
+.serviceList-part{
+    overflow: hidden;
+    background: #E5E5E5;
+}
+.table-content{
+    padding: 10px;
+    margin: 0 auto;
+}
+.table{
+    background:#fff;
+     margin-top: 20px;
+     padding: 10px;
+}
+.table thead{
+    height: 30px;
+    background:#F5F6FA; 
+    color:#000;
+    padding: 10px;
+}

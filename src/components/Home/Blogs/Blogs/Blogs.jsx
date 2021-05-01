@@ -4,9 +4,10 @@ import BlogsCard from '../BlogsCard/BlogsCard';
 import './Blogs.css';
 import { Link } from 'react-router-dom';
 
-const Blogs = () => {
-    const allBlogs = BlogsFakeData.slice(0, 3);
-    const [blogsContent, setBlogsContent] = useState(allBlogs);
+const Blogs = ( {showAllBlogs} ) => {
+
+    const AllBlogs = showAllBlogs ? BlogsFakeData : BlogsFakeData.slice(0, 3);
+    const [blogsContent, setBlogsContent] = useState(AllBlogs);
     return (
         <section className="blogs-section">
             <div className="container">
@@ -21,9 +22,13 @@ const Blogs = () => {
                                     blogsContent.map(blogsContent => <BlogsCard key={blogsContent.id} blogsContent={blogsContent}></BlogsCard>)
                                 }
                             </div>
-                            <div className="show-allBlogs-btn">
-                                <Link className="moreBlogs-btn" to={`/blogs`}>More Blogs</Link>
-                            </div>
+                            {
+                                !showAllBlogs && (
+                                    <div className="show-allBlogs-btn">
+                                        <Link className="moreBlogs-btn" to={`/blogs`}>More Blogs</Link>
+                                    </div>
+                                )
+                            }
                         </div>
                     </div>
                 </div>

@@ -10,6 +10,7 @@ html{
 body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden !important;
 }
 a, a:hover{
     text-decoration: none !important;

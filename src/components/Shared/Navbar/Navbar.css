@@ -1,6 +1,19 @@
 .main-menu{
     background: #fff;
     padding: 5px 0px;
+    box-shadow: 0px 0px 10px #ddd;
+    scroll-behavior: smooth;
+    transition: all linear .3s;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    scroll-behavior: smooth;
+    transition: all linear .3s;
+}
+.main-menu.active{
+    box-shadow: 0px 0px 10px #ddd;
 }
 .header-logo{
     margin-left: -16px;

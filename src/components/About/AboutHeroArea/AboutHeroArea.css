@@ -1,0 +1,22 @@
+.about-hero-section{
+    background-image: url(../../../images/AboutUsImage/about-banner-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.about-bgOverlay{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 200px 0px;
+}
+.about-hero-content{
+    text-align: center;
+    color: #fff;
+}
+.about-hero-content h4{
+    font-weight: 700;
+}
+.about-hero-content h1{
+    font-size: 55px;
+    font-weight: 700;
+}

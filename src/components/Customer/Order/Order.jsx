@@ -43,18 +43,18 @@ const Order = () => {
         <div className="order-part" style={{ overflow: 'hidden', background: '#E5E5E5' }}>
             <HeaderMenu></HeaderMenu>
             <div className="row">
-                <div className="col-md-2">
+                <div className="col-lg-2">
                     <SideBar></SideBar>
                 </div>
-                <div className="col-md-10">
+                <div className="col-lg-10">
                     <div className="order-form">
                         <div className="row">
                             {
                                 isAdmin ?
-                                    <div className="col-md-10" style={{ padding:'10px'}}>
-                                        <div>
-                                            <table class="table" style={{ background:'#fff',padding:'10px', marginTop:'20px', borderRadius: '10px'}}>
-                                                <thead style={{height: '30px', background:'#F5F6FA', color:'#000', padding:'10px', borderRadius: '10px'}}>
+                                    <div className="col-md-12">
+                                        <div className="table-content">
+                                            <table className="table">
+                                                <thead>
                                                     <tr>
                                                         <th scope="col">Name</th>
                                                         <th scope="col">Email Id</th>
@@ -63,6 +63,7 @@ const Order = () => {
                                                         <th scope="col">Status</th>
                                                     </tr>
                                                 </thead>
+                                                <br/>
                                                 <tbody>
                                                     {
                                                         serviceList.map(serviceList =>
