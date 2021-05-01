@@ -8,3 +8,10 @@
 .contact-form textarea{
     border-radius: 20px;
 }
+.contact-btn button{
+    border: 0;
+    padding: 10px 30px;
+    background: #1a1a1a;
+    color: #fff;
+    transition: all linear .3s;
+}

@@ -1,0 +1,22 @@
+.contactUs-hero-section{
+    background-image: url(../../../images/ContactImage/contact-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.contactUs-bgOverlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 200px 0px;
+}
+.contactUs-content{
+    color: #fff;
+    text-align: center;
+}
+.contactUs-content{
+    font-weight: 700;
+}
+.contactUs-content h1{
+    font-size: 55px;
+    font-weight: 700;
+}
