@@ -1,10 +1,5 @@
 import React, { createContext, useState } from 'react';
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
 import Home from './components/Home/Home/Home';
 import Login from './components/Login/Login/Login';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
@@ -20,6 +15,11 @@ import Services from './components/Services/Services/Services';
 import About from './components/About/About/About';
 import OurTeam from './components/OurTeam/OurTeam/OurTeam';
 import ContactUs from './components/ContactUs/ContactUs/ContactUs';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 export const UserContext = createContext();
 

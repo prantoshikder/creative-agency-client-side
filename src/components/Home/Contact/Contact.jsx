@@ -1,7 +1,18 @@
 import React from 'react';
 import './Contact.css';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('gmail', 'template_ds5ses9', e.target, 'user_ifHzwEs6SmTBgnFP6o0Yt')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    };
     return (
         <footer className="contact-part mt-5 mb-5">
             <div className="container">
@@ -14,26 +25,26 @@ const Contact = () => {
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className="contact-form">
-                            <form action="">
+                            <form  onSubmit={sendEmail}>
                                 <div className="form-row">
                                     <div className="form-group col-md-6">
-                                        <input type="name" className="form-control" autocomplete="off" placeholder="Name *" />
+                                        <input type="text" name="first name" className="form-control" autocomplete="off" placeholder="First Name *" />
                                     </div>
                                     <div className="form-group col-md-6">
-                                        <input type="email" className="form-control" autocomplete="off" placeholder="Email Address *" />
+                                        <input type="text" name="last name" className="form-control" autocomplete="off" placeholder="Last Name *" />
                                     </div>
                                     <div className="form-group col-md-6">
-                                        <input type="number" className="form-control" autocomplete="off" placeholder="Phone Number *" />
+                                        <input type="email" name="email" className="form-control" autocomplete="off" placeholder="Email Address *" />
                                     </div>
                                     <div className="form-group col-md-6">
-                                        <input type="date" className="form-control" placeholder="Date *" data-type="datepicker" />
+                                        <input type="number" name="number" className="form-control" autocomplete="off" placeholder="Phone Number *" />
                                     </div>
                                     <div className="form-group col-md-12">
-                                        <textarea type="text" className="form-control" rows="4" placeholder="Your Note *" style={{position: 'relative !important', zIndex: 'auto !important'}}></textarea>
+                                        <textarea type="text" name="message" className="form-control" rows="4" placeholder="Your Note *" style={{position: 'relative !important', zIndex: 'auto !important'}}></textarea>
                                     </div>
                                 </div>
                                 <div className="contact-btn">
-                                    <button type="submit">Book A Table</button>
+                                    <button type="submit">SEND</button>
                                 </div>
                             </form>
                         </div>
